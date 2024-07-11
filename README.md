@@ -1,7 +1,6 @@
-
 # TIL
 
-Today I Learned
+- Today I Learned
 
 ---
 
@@ -12,17 +11,3 @@ Today I Learned
 2. 충분히 이해하여 **나**의 언어로 작성한다.
 
 3. 나에게 맞는 작성 양식으로 발전해나간다.
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -4,7 +4,7 @@
 
 ### 제목3 = ### 제목
 
-#6개까지 가능
+> 총 6개까지 가능
 
 ---
 
@@ -15,27 +15,29 @@
 3. 리스트
    1. 하위 리스트
 
+> 기호 - 표시 통일
+
+---
+
 ```python
 print('HELLO WORLD!)
 ```
 
 오늘 파이썬을 배웠는데 `print` 라고 하는 것을 배웠다.
 
-[우리반 노션](https://www.notion.so/12-2-5ca9b2200cda4bfeb1478fe12630f56a)
-
-![이미지](https://picsum.photos/320/150)
-![시고르자브종](images/시고르자브종.jfif)
-
-**굵게**
-*기울임*
-~~취소선~~
+> 기호 ` 개수 각각 3개, 1개씩
 
 ---
 
-> 인용문
-> 
-> ```python
-> print('hello')
-> ```
+[우리반 노션](https://www.notion.so/12-2-5ca9b2200cda4bfeb1478fe12630f56a) = [이름] (주소)
 
-MarkText (무료)
+![이미지](https://picsum.photos/320/150) = ! [이름] (주소)
+![시고르자브종](C:\Users\SSAFY\Desktop\TIL\images\강아지.jpg) = ! [이름] (폴더/파일이름)
+
+---
+
+**굵게** = * * 굵게 * *
+*기울임*  = * 기울임 *
+~~취소선~~ = ~~ 취소선 ~~
+
+> 참고: MarkText (무료)
