@@ -1,12 +1,11 @@
-## 
 
 # TIL
 
-### Today I Learned
+Today I Learned
 
 ---
 
-### TIL 작성 규칙
+## TIL 작성 규칙
 
 1. 오늘 배운 것은 오늘 작성한다. (주 5일)
 
