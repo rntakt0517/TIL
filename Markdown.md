@@ -31,6 +31,14 @@ print('HELLO WORLD!)
 
 [우리반 노션](https://www.notion.so/12-2-5ca9b2200cda4bfeb1478fe12630f56a) = [이름] (주소)
 
+[문서 내 이동](#문서-내-이동) = [이름] (#이름)
+
+> 영어는 소문자만 가능
+> 
+> 띄어쓰기는 기호 - 사용
+> 
+> 이 외 문자들은 생략
+
 ![이미지](https://picsum.photos/320/150) = ! [이름] (주소)
 ![시고르자브종](C:\Users\SSAFY\Desktop\TIL\images\강아지.jpg) = ! [이름] (폴더/파일이름)
 
