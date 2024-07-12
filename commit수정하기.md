@@ -36,5 +36,3 @@ git commit --amend
 > 실수한 commit에 **추가로 올리는 것이 아니라** 한 commit으로 만들어 올리기
 
 ---
-
-
