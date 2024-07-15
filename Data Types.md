@@ -1,12 +1,12 @@
 # Data Types
 
-    [Numeric Type](numeric-type)
+    [Numeric Type](#numeric-type)
 
-    [Sequence Types](sequence-types)
+    [Sequence Types](#sequence-types)
 
-    [Non-sequence Types](non-sequence-types)
+    [Non-sequence Types](#non-sequence-types)
 
-    [Boolean, None, Functions](booleannonefunctions)
+    [Boolean, None, Functions](#boolean-none-functions)
 
 ---
 
