@@ -20,15 +20,15 @@
 
 - Git
   
-  - [기본 사용법](https://github.com/rntakt0517/TIL/blob/master/git%EA%B8%B0%EB%B3%B8%EC%82%AC%EC%9A%A9%EB%B2%95.md)
+  - [기본 사용법](https://github.com/rntakt0517/TIL/blob/master/Git/git%EA%B8%B0%EB%B3%B8%EC%82%AC%EC%9A%A9%EB%B2%95.md)
   
-  - [생성 저장](https://github.com/rntakt0517/TIL/blob/master/git%EC%83%9D%EC%84%B1%EC%A0%80%EC%9E%A5.md)
+  - [생성 저장](https://github.com/rntakt0517/TIL/blob/master/Git/git%EC%83%9D%EC%84%B1%EC%A0%80%EC%9E%A5.md)
   
-  - [되돌리기](https://github.com/rntakt0517/TIL/blob/master/git%EB%90%98%EB%8F%8C%EB%A6%AC%EA%B8%B0.md)
+  - [되돌리기](https://github.com/rntakt0517/TIL/blob/master/Git/git%EB%90%98%EB%8F%8C%EB%A6%AC%EA%B8%B0.md)
   
-  - [commit 수정하기](https://github.com/rntakt0517/TIL/blob/master/commit%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0.md)
+  - [commit 수정하기](https://github.com/rntakt0517/TIL/blob/master/Git/commit%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0.md)
 
-- [프로그래밍 기본](https://github.com/rntakt0517/TIL/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EA%B8%B0%EB%B3%B8.md)
+- [프로그래밍 기본](https://github.com/rntakt0517/TIL/blob/master/Python/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EA%B8%B0%EB%B3%B8.md)
   
-  - [Data Types](https://github.com/rntakt0517/TIL/blob/master/Data%20Types.md)
+  - [Data Types](https://github.com/rntakt0517/TIL/blob/master/Python/Data%20Types.md)
   - [연산자](https://github.com/rntakt0517/TIL/blob/master/Python/%EC%97%B0%EC%82%B0%EC%9E%90.md)
