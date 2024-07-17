@@ -32,3 +32,5 @@
   
   - [Data Types](https://github.com/rntakt0517/TIL/blob/master/Python/Data%20Types.md)
   - [연산자](https://github.com/rntakt0517/TIL/blob/master/Python/%EC%97%B0%EC%82%B0%EC%9E%90.md)
+  - [함수](https://github.com/rntakt0517/TIL/blob/master/Python/%ED%95%A8%EC%88%98.md)
+  - [범위](https://github.com/rntakt0517/TIL/blob/master/Python/%EB%B2%94%EC%9C%84.md)
