@@ -40,7 +40,7 @@ print('HELLO WORLD!)
 > 이 외 문자들은 생략
 
 ![이미지](https://picsum.photos/320/150) = ! [이름] (주소)
-![시고르자브종](images/강아지.jpg) = ! [이름] (폴더/파일이름)
+![강아지](https://github.com/user-attachments/assets/5eb1b137-b752-470b-8a75-0a7655473dec) = ! [이름] (폴더/파일이름)
 
 ---
 
