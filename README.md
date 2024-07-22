@@ -30,11 +30,12 @@
 
 - [프로그래밍 기본](https://github.com/rntakt0517/TIL/blob/master/Python/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EA%B8%B0%EB%B3%B8.md)
   
-  - [Data Types](https://github.com/rntakt0517/TIL/blob/master/Python/Data%20Types.md)
+  - [데이터 타입](https://github.com/rntakt0517/TIL/blob/master/Python/Data%20Types.md)
   - [연산자](https://github.com/rntakt0517/TIL/blob/master/Python/%EC%97%B0%EC%82%B0%EC%9E%90.md)
   - [함수](https://github.com/rntakt0517/TIL/blob/master/Python/%ED%95%A8%EC%88%98.md)
   - [범위](https://github.com/rntakt0517/TIL/blob/master/Python/%EB%B2%94%EC%9C%84.md)
   - [모듈](https://github.com/rntakt0517/TIL/blob/master/Python/%EB%AA%A8%EB%93%88.md)
   - [제어문](https://github.com/rntakt0517/TIL/blob/master/Python/%EC%A0%9C%EC%96%B4%EB%AC%B8.md)
+  - [데이터 구조](https://github.com/rntakt0517/TIL/blob/master/Python/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EA%B5%AC%EC%A1%B0.md)
 
 - [관통프로젝트](https://github.com/rntakt0517/TIL/tree/master/%EA%B4%80%ED%86%B5%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)
