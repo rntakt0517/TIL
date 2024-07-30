@@ -41,7 +41,10 @@
   - [예외 처리](https://github.com/rntakt0517/TIL/blob/master/Python/%EC%98%88%EC%99%B8%20%EC%B2%98%EB%A6%AC.md)
 
 - 관통프로젝트
+  
   - [1](https://github.com/rntakt0517/TIL/tree/master/%EA%B4%80%ED%86%B5%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)
   - [2](https://github.com/rntakt0517/TIL/blob/master/%EA%B4%80%ED%86%B5%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/pjt-02.md)
 
 - [알고리즘](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
+  
+  - [배열과 정렬](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EB%B0%B0%EC%97%B4%EA%B3%BC%20%EC%A0%95%EB%A0%AC.md)
