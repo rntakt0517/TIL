@@ -55,7 +55,7 @@ def fibo(n):
     return dp[n]
 # n=7로 피보나치 수를 계산
 n = 7
-print(f"Fibonacci({n}) = {fibo(n)}")
+print(f"{fibo(n)}")
 ```
 
 ---
@@ -115,5 +115,3 @@ for tc in range(1, T+1):
         adjL[v2].append(v1)
     DFS(1, V)                               # 1 2 4 6 5 7 3 
 ```
-
-
