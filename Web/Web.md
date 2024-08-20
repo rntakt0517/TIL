@@ -6,8 +6,6 @@
 
 [웹 스타일링](#웹-스타일링)
 
-[CSS Box Model](#css-box-model)
-
 ---
 
 ## 웹이란
@@ -165,57 +163,3 @@
   > CSS 상속 여부 확인
   > 
   >  : MDN의 각 속성별 문서 하단에서 상속 여부를 확인할 수 있음
-
----
-
-## CSS Box Model
-
-웹 페이지의 모든 HTML 요소를 감사는 사각형 상자 모델
-
-- **<mark>박스 타입</mark>** : 페이지에서의 배치 흐름 및 다른 박스와 관련된 동작 방식이 달라짐
-  
-  1. Block box
-  
-  2. Inline box
-
-- 박스 표시(Display) 타입
-  
-  1. **Outer display type**
-     
-     - **block** 특징 (아래로 이동)
-       
-       - 항상 새로운 행으로 나뉨
-       
-       - width와 height 속성 사용 가능
-       
-       - padding, margin, border로 인해 다른 요소를 상자로부터 밀어냄
-       
-       - width 속성을 지정하지 않으면 박스는 inline 방향으로 사용 가능한 공간을 모두 차지함
-       
-       - 대표적인 blck 타입 태그 : `h1~6`, `p`, `div`
-     
-     - **inline** 특징 (오른쪽으로 이동)
-       
-       - 새로운 행으로 넘어가지 않음
-       
-       - width와 height 속성을 사용할 수 없음
-       
-       - 수직 방향 : padding, margin, border가 적용되지만 다른 요소를 밀어낼 수는 없음
-       
-       - 수평 방향 : padding, margins, borders가 적용되어 다른 요소를 밀어낼 수 있음
-       
-       - 대표적인 inline 타입 태그 : `a`, `img`, `span`, `strong`, `em`
-     
-     - **Normal flow** : 일반적인 흐름 또는 레이아웃을 변경하지 않은 경우의 요소 배치
-       
-       ![image](https://github.com/user-attachments/assets/370fd61e-8047-4e12-a30c-516b89a2432c)
-  
-  2. **Inner display type**
-     
-     - 박스 내부의 요소들이 어떻게 배치될지를 결정
-     
-     - 속성 : flex
-     
-     - 추후 CSS layout - Flexbox에서 진행 예정
-
-
