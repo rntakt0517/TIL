@@ -23,6 +23,10 @@
 ## 웹 구조화
 
 - **<mark>HTML</mark>** : HyperText Markup Language, 웹 페이지의 의미와 구조를 정의하는 언어
+  
+  > emmet 쓰면 빠름 (알고 있으면 편함)
+  > 
+  > ex) `.container` = `<div class = "container"></div>`
 
 - **Hypertext** : 웹 페이지를 다른 페이지로 연결하는 링크, 참조를 통해 사용자가 한 문서에서 다른 문서로 즉시 접근할 수 있는 텍스트
   
