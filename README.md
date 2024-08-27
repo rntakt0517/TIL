@@ -46,29 +46,35 @@
   - [2](https://github.com/rntakt0517/TIL/blob/master/%EA%B4%80%ED%86%B5%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/pjt-02.md)
   - [3](https://github.com/rntakt0517/TIL/blob/master/%EA%B4%80%ED%86%B5%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/pjt-03.md)
 
-- [알고리즘](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
+- [알고리즘](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%981/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
   
-  - [배열과 정렬](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EB%B0%B0%EC%97%B4%EA%B3%BC%20%EC%A0%95%EB%A0%AC.md)
+  - 기초
+    
+    - [배열과 정렬](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%981/%EB%B0%B0%EC%97%B4%EA%B3%BC%20%EC%A0%95%EB%A0%AC.md)
+    
+    - [2차원 배열](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%981/2%EC%B0%A8%EC%9B%90%20%EB%B0%B0%EC%97%B4.md)
+    
+    - [검색](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%981/%EA%B2%80%EC%83%89.md)
+    
+    - [문자열](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%981/%EB%AC%B8%EC%9E%90%EC%97%B4.md)
+    
+    - [패턴 매칭](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%981/%ED%8C%A8%ED%84%B4%20%EB%A7%A4%EC%B9%AD.md)
+    
+    - [스택](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%981/%EC%8A%A4%ED%83%9D.md)
+    
+    - [DP](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%981/DP.md)
+    
+    - [계산기](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%981/%EA%B3%84%EC%82%B0%EA%B8%B0.md)
+    
+    - [백트래킹](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%981/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9.md)
+    
+    - [큐](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%981/%ED%81%90.md)
+    
+    - [BFS](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%981/BFS.md)
   
-  - [2차원 배열](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/2%EC%B0%A8%EC%9B%90%20%EB%B0%B0%EC%97%B4.md)
-  
-  - [검색](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EA%B2%80%EC%83%89.md)
-  
-  - [문자열](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EB%AC%B8%EC%9E%90%EC%97%B4.md)
-  
-  - [패턴 매칭](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%ED%8C%A8%ED%84%B4%20%EB%A7%A4%EC%B9%AD.md)
-  
-  - [스택](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%8A%A4%ED%83%9D.md)
-  
-  - [DP](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/DP.md)
-  
-  - [계산기](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EA%B3%84%EC%82%B0%EA%B8%B0%EC%99%80%20%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9.md)
-  
-  - [백트래킹](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9.md)
-  
-  - [큐](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%ED%81%90.md)
-  
-  - [BFS](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/BFS.md)
+  - 응용
+    
+    - [Tree](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%982/Tree.md)
 
 - [Web](https://github.com/rntakt0517/TIL/blob/master/Web/Web.md)
   
