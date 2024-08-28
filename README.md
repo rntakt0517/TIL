@@ -75,6 +75,7 @@
   - 응용
     
     - [Tree](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%982/Tree.md)
+    - [이진 탐색 트리와 힙](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%982/%EC%9D%B4%EC%A7%84%20%ED%83%90%EC%83%89%20%ED%8A%B8%EB%A6%AC.md)
 
 - [Web](https://github.com/rntakt0517/TIL/blob/master/Web/Web.md)
   
