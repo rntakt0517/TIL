@@ -79,6 +79,7 @@
     - [start_1](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%982/start_1.md)
     - [start_2](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%982/start_2.md)
     - [완전 검색](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%982/%EC%99%84%EC%A0%84%20%EA%B2%80%EC%83%89.md)
+    - [탐욕 알고리즘](https://github.com/rntakt0517/TIL/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%982/%ED%83%90%EC%9A%95%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
 
 - [Web](https://github.com/rntakt0517/TIL/blob/master/Web/Web.md)
   
