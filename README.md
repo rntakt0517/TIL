@@ -93,3 +93,5 @@
   - [Responsive Web](https://github.com/rntakt0517/TIL/blob/master/Web/Responsive%20Web.md)
 
 - [Django](https://github.com/rntakt0517/TIL/blob/master/Django/Django%20Intro.md)
+  
+  - [TIL/Django/Template](https://github.com/rntakt0517/TIL/blob/master/Django/Template%26URLs.md)
