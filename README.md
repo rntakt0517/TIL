@@ -94,4 +94,8 @@
 
 - [Django](https://github.com/rntakt0517/TIL/blob/master/Django/Django%20Intro.md)
   
-  - [TIL/Django/Template](https://github.com/rntakt0517/TIL/blob/master/Django/Template%26URLs.md)
+  - [루틴](https://github.com/rntakt0517/TIL/blob/master/Django/%EB%A3%A8%ED%8B%B4.txt)
+  
+  - [Template](https://github.com/rntakt0517/TIL/blob/master/Django/Template%26URLs.md)
+  
+  - [Model](https://github.com/rntakt0517/TIL/blob/master/Django/Model.md)
