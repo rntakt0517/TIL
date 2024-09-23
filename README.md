@@ -99,3 +99,5 @@
   - [Template](https://github.com/rntakt0517/TIL/blob/master/Django/Template%26URLs.md)
   
   - [Model](https://github.com/rntakt0517/TIL/blob/master/Django/Model.md)
+  
+  - [ORM](https://github.com/rntakt0517/TIL/blob/master/Django/ORM.md)
