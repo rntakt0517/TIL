@@ -101,3 +101,5 @@
   - [Model](https://github.com/rntakt0517/TIL/blob/master/Django/Model.md)
   
   - [ORM](https://github.com/rntakt0517/TIL/blob/master/Django/ORM.md)
+  
+  - [ORM with view](https://github.com/rntakt0517/TIL/blob/master/Django/ORM%20with%20view.md)
