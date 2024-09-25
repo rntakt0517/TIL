@@ -8,10 +8,12 @@ source venv/Scripts/activate
 pip install django
 
 4-1. 패키지 목록 파일 생성 (패키지 설치시마다 진행)
-pip freeze > requirements.txt
-
-4-2. 또는 패키지 목록 기반 설치
 pip install -r requirements.txt
+pip install ipython
+pip install django-extensions
+pip install requests
+pip freeze > requirements.txt
+settings.py에 'django_extensions' 추가
 
 5. .gitignore 파일 생성 (첫 add 전)
 맨 아래 ㄱㄱ
@@ -21,10 +23,9 @@ pip install -r requirements.txt
 7. Django 프로젝트 생성
 django-admin startproject firstpjt .
 
-8-1. Django 애플리케이션 생성
+8. Django 애플리케이션 생성
 django-admin startapp firstapp
-
-8-2. 프로젝트 settings.py에 app 넣기
+프로젝트 settings.py에 app 추가
 
 9. URLs
 from articles import views
@@ -37,16 +38,36 @@ def index(request):
 11. Template
 알맞은 위치에 index.html 생성
 
-12. Django 서버 실행
-python manage.py runserver
+12. app의 model에 클래스 추가
+class Book(models.Model):
+    title = models.CharField(max_length=50)
 
-13. 서버 확인
+13. 데이터베이스 생성
+python manage.py makemigrations
+python manage.py migrate
+SALite 연결
+
+14. shell_plus 환경 키기
+python manage.py shell_plus
+
+15. 데이터 객체 생성
+article = Article(title='second', content='django!')
+article.save()
+
+16. shell_plus 환경 끄기
+exit
+
+17. admin 계정 생성
+python manage.py createsuperuser
+
+18. Django 서버 실행
+python manage.py runserver
 ctrl + 링크 클릭
 
-15. Django 서버 끄기
+19. Django 서버 끄기
 ctrl + c
 
-16. 가상환경 비활성화
+20. 가상환경 비활성화
 deactivate
 
 
