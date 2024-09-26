@@ -105,3 +105,5 @@
   - [ORM with view](https://github.com/rntakt0517/TIL/blob/master/Django/ORM%20with%20view.md)
   
   - [Form](https://github.com/rntakt0517/TIL/blob/master/Django/Form.md)
+  
+  - [Static files](https://github.com/rntakt0517/TIL/blob/master/Django/Static%20files.md)
