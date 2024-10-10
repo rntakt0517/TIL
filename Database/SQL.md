@@ -20,6 +20,14 @@
 
 [Managing Tables](#managing-tables)
 
+- [Create a table](#create-a-table)
+
+- [Modifying table fields](#modifying-table-fields)
+
+- [Delete a table](#delete-a-table)
+
+[Modifying Data](#modifying-date)
+
 - [Insert data](#insert-data)
 
 - [Update data](#update-data)
@@ -72,21 +80,13 @@
 
 #### 키워드
 
-- **Table (== Relation)**
-  
-  : 데이터를 기록하는 곳
+- **Table (== Relation)** : 데이터를 기록하는 곳
 
-- **Field (== Column, Attribute)**
-  
-  : 각 필드에는 고유한 데이터 형식(타입)이 지정됨
+- **Field (== Column, Attribute)** : 각 필드에는 고유한 데이터 형식(타입)이 지정됨
 
-- **Record (== Row, Tuple)**
-  
-  : 각 레코드에는 구체적인 데이터 값이 저장됨
+- **Record (== Row, Tuple)** : 각 레코드에는 구체적인 데이터 값이 저장됨
 
-- **Database (== Schema)**
-  
-  : 테이블의 집합
+- **Database (== Schema)** : 테이블의 집합
 
 ---
 
@@ -257,21 +257,13 @@
 
 #### Operator
 
-- **Comparison (비교 연산자)**
-  
-  : `=`, `>=`, `<=`, `IS`, `LIKE`, `IN`, `BETWEEN`, `AND`
+- **Comparison (비교 연산자)** : `=`, `>=`, `<=`, `IS`, `LIKE`, `IN`, `BETWEEN`, `AND`
 
-- **Logical (논리 연산자)**
-  
-  : `AND(&&)`, `OR(||)`, `NOT(!)`
+- **Logical (논리 연산자)** : `AND(&&)`, `OR(||)`, `NOT(!)`
 
-- **IN**
-  
-  : 값이 특정 목록 안에 있는지 확인
+- **IN** : 값이 특정 목록 안에 있는지 확인
 
-- **LIKE**
-  
-  : 값이 특정 패턴에 일치하는지 확인 (wildcards와 함께 사용)
+- **LIKE** : 값이 특정 패턴에 일치하는지 확인 (wildcards와 함께 사용)
   
   > **wildcards**
   > 
@@ -283,7 +275,7 @@
 
 ## Grouping data
 
-- GROUP BY
+- **GROUP BY**
   
   : 레코드를 그룹화하여 요약본 생성 ('집계 함수'와 함께 사용)
   
@@ -296,7 +288,7 @@
     c1, c2, ..., cn;
   ```
   
-  - Aggregation Functions (집계 함수)
+  - **Aggregation Functions (집계 함수)**
     
     : 값에 대한 계산을 수행하고 단일한 값을 반환하는 함수
     
@@ -306,7 +298,7 @@
   
   - `AVG(Bytes) AS avg0fBytes`는 각 그룹에 대한 Bytes의 평균 값을 내림차순 조회
   
-  - HAVING
+  - **HAVING**
     
     : 집계 항목에 대한 세부 조건을 지정
     
@@ -325,3 +317,241 @@
     ```
 
 ---
+
+## Managin Tables
+
+---
+
+## Create a table
+
+#### CREATE TABLE
+
+: 테이블 생성
+
+```sql
+CREATE TABLE table_name (
+  column_1 data_type constrainsts,
+  column_2 data_type constraints,
+  ...,
+);
+```
+
+- **PRAGMA**
+  
+  : 테이블 schema(구조) 확인
+  
+  ```sql
+  PRAGMA table_info('examples');
+  ```
+  
+  - **cid**
+    
+    : Column ID를 의미하며 각 컬럼의 고유한 식별자를 나타내는 정수 값
+    
+      직접 사용않고 PRAGMA 명령과 같은 메타데이터 조회에서 출력 값으로 활용
+
+#### SQLite 데이터 타입
+
+- `NULL` : 아무런 값도 포함하지 않음을 나타냄
+
+- `TEXT` : 문자열
+
+- `INTEGER `: 정수
+
+- `BLOB `: 이미지, 동영상, 문서 등의 바이너리 데이터
+
+- `REAL `: 부동 소수점
+
+#### Constraints (제약 조건)
+
+: 테이블의 필드에 적용되는 규칙 또는 제한 사항
+
+  데이터의 무결성을 유지하고 데이터베이스의 일관성을 보장
+
+- `PRIMARY KEY` : 해당 필드를 기본 키로 지정 (INTEGER 타입에만 적용)
+
+- `NOT NULL` : 해당 필드에 NULL 값을 허용하지 않도록 지정
+
+- `FOREIGN KEY` : 다른 테이블과의 외래 키 관계를 정의
+
+#### AUTOINCREAMENT keyword
+
+: 자동으로 고유한 정수 값을 생성하고 할당하는 필드 속성
+
+- 필드의 자동 증가를 나타내는 특수한 키워드
+
+- 주로 primary key 필드에 적용
+
+- `INTEGER PRIMARY KEY AUTOINCREAMENT`가 작성된 필드는 항상 새로운 레코드에 대해 이전 최대 값보다 큰 값을 할당
+
+- 삭제된 값은 무시되며 재사용할 수 없게 됨
+
+---
+
+## Modifying table fields
+
+#### ALTER TABLE
+
+: 테이블 및 필드 조작
+
+- ALTER TABLE **ADD COLUMN**
+  
+  : 필드 추가
+  
+  ```sql
+  ALTER TABLE
+    table_name
+  ADD COLUMN
+    column_definition;
+  ```
+  
+  - 추가하고자 하는 필드에 NOT NULL 제약조건이 있을 경우 NULL이 아닌 기본 값 설정 필요 `NOT NULL DEFAULT 'default value';`
+  
+  - SQLite는 단일 문을 사용하여 한번에 여러 필드를 추가할 수 없음
+
+- ALTER TABLE **RENAME COLUMN**
+  
+  : 필드 이름 변경
+  
+  ```sql
+  ALTER TABLE
+    table_name
+  RENAME COLUMN
+    current_name TO new_name
+  ```
+
+- ALTER TABLE **CROP COLUMN**
+  
+  : 필드 삭제
+  
+  ```sql
+  ALTER TABLE
+    table_name
+  DROP COLUMN
+    column_name
+  ```
+
+- ALTER TABLE **RENAME TO**
+  
+  : 테이블 이름 변경
+  
+  ```sql
+  ALTER TABLE
+    table_name
+  RENAME TO
+    new_table_name
+  ```
+
+---
+
+## Delete a table
+
+#### DROP TABLE
+
+: 테이블 삭제
+
+```sql
+DROP TABLE table_name;
+```
+
+---
+
+## Modifying Data
+
+---
+
+## Insert data
+
+#### INSEAR
+
+: 테이블 레코드 삽입
+
+```sql
+INSERT INTO table_name (c1, c2, ...) # 괄호 안에 필드 목록
+VALUES (v1, v2, ...); # 괄호 안에 필드에 삽입할 값 목록 작
+```
+
+- 여러 개 한 줄씩 해서 한 번에 추가 가능
+
+- `DATE()` 함수를 사용해 createdAt에 다음과 같은 데이터 추가 입력
+
+---
+
+## Update data
+
+#### UPDATE
+
+: 테이블 레코드 수정
+
+```sql
+UPDATE table_name
+SET column_name = expression,
+[WHERE
+  condition];
+```
+
+- `WHERE`절을 작성하지 않으면 모든 레코드를 수정
+
+---
+
+## Delete data
+
+#### DELETE
+
+: 테이블 레코드 삭제
+
+```sql
+DELETE FROM table_name
+[WHERE
+  condition];
+```
+
+- `WHERE`절을 작성하지 않으면 모든 레코드를 삭제
+
+- `WHERE`절 안에 SELECT, ORDER BY, LIMIT 넣어서 복잡하게 선택할 수도 있음
+
+---
+
+## Multi table Queries
+
+---
+
+## Join
+
+: 관계, 여러 테이블 간의 (논리적) 연결
+
+- 테이블을 분리하면 데이터 관리는 용이해질 수 있으나 출력시에는 문제가 있음
+
+- 테이블 한 개 만을 출력할 수 밖에 없어 다른 테이블과 결합하여 출력하는 것이 필요
+
+---
+
+## Joining tables
+
+#### JOIN
+
+: 둘 이상의 테이블에서 데이터를 검색하는 방법
+
+- **INNER JOIN**
+  
+  : 두 테이블에서 값이 일치하는 레코드에 대해서만 결과를 반환
+  
+  ```sql
+  # SELECT statemant 이후
+  INNER JOIN table_b
+    ON table_b.fk = table_a.pk;
+  ```
+
+- **LEFT JOIN**
+  
+  : 오른쪽 테이블의 일치하는 레코드와 함께 왼쪽 테이블의 모든 레코드 반환
+  
+  ```sql
+  # SELECT statemant 이후
+  LEFT JOIN table_b
+    ON table_b.fk = table_a.pk;
+  ```
+  
+  - 왼쪽 테이블의 모든 레코드를 표기
+  
+  - 오른쪽 테이블과 매칭되는 레코드가 없으면 NULL을 표시
