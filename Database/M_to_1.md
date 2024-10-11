@@ -9,7 +9,7 @@
 0개 이상(N)의 댓글은 1개의 게시글에 작성될 수 있다.
 
 - 테이블 관계
-  ![alt text](image-33.png)
+  ![image-33](https://github.com/user-attachments/assets/0bd023d0-813b-49af-bdee-57c332b63293)
 
 ## 댓글 모델 정의
 
@@ -43,7 +43,7 @@
 - 모델 간의 관계에서 관계를 정의한 모델이 아닌, 관계의 대상이 되는 모델에서 연결된 객체들에 접근하는 방식
 - N은 외래 키를 가지고 있어 물리적으로 참조가 가능하지만, 1은 N에 대한 참조 방법이 존재하지 않아 별도의 역참조 키워드가 필요
 
-![alt text](image-35.png)
+![image-35](https://github.com/user-attachments/assets/677ec026-6bc4-4f5a-99d5-61453e1dc43f)
 
 ### related manager
 
@@ -61,24 +61,24 @@ N:1  혹은 M:N관계에서 역참조 시에 사용하는 매니저
 ## 댓글 create 구현
 
 1. 사용자로부터 댓글 데이터를 입력 받기 위한 CommentForm 정의
-   ![alt text](image-36.png)
+   ![image-36](https://github.com/user-attachments/assets/61cbcac7-baa9-4546-aade-ed1212c3b19a)
 2. detail view 함수에서 CommentForm을 사용하여 detail 페이지에 렌더링
-   ![alt text](image-37.png)
+   ![image-37](https://github.com/user-attachments/assets/48f503ec-c9bb-4308-9a59-c01baf870f94)
 3. 
 - Comment 클래스의 외래 키 필드 article 또한 데이터 입력이 필요한 필드이기 때문에 출력 되는 것
 - **하지만, 외래 키 필드 데이터는 사용자로부터 입력 받는 값이 아닌 view 함수 내에서 다른 방법으로 전달 받아 저장 돼야함.
-  ![alt text](image-38.png)
+  ![image-38](https://github.com/user-attachments/assets/9e762995-51b0-4e7f-8953-a2aacd2418d7)
 4. CommentForm의 출력 필드 조정하여 외래 키 필드가 출력되지 않도록 조정
-   ![alt text](image-39.png)
+   ![image-39](https://github.com/user-attachments/assets/563dd5cc-ce41-462a-81a7-c54c83f31cfb)
 5. 
 - 출력에서 제외된 외래키 데이터는 detail 페이지의 URL을 살펴보면
 - path('<int:pk>/', views.detail, name='detail')에서 해당 게시글의 pk값이 사용되고 있다.
 - 댓글의 외래 키 데이터에 필요한 정보가 바로 게시글의 pk 값
 6. url 작성 및 action 값 작성
-   ![alt text](image-40.png)
+   ![image-40](https://github.com/user-attachments/assets/037b14a0-0973-4c6d-8ae7-23e3fa0a1ff9)
 7. comments_create view 함수 정의
    - url로 받은 pk 인자를 게시글을 조회하는 데 사용 
-     ![alt text](image-41.png)
+     ![image-41](https://github.com/user-attachments/assets/5df0992b-80e0-4471-bebe-49ef380b4774)
 
 ### save(commit=False)
 
@@ -86,22 +86,22 @@ DB에 저장 요청을 보내지 않고 인스턴스만 반환
 (Create, but don't sace the new instance)
 
 8. save의 commit 인자를 활용해 외래 키 데이터 추가 입력
-   ![alt text](image-42.png)
+   ![image-42](https://github.com/user-attachments/assets/d7d88857-d17a-4fc9-9c3c-35fce69cc75a)
 
 ## 댓글 READ 구현
 
 - detail view 함수에서 전체 댓글 데이터를 조회
-  ![alt text](image-43.png)
-  ![alt text](image-44.png)
+  ![image-43](https://github.com/user-attachments/assets/af0e4c29-2b8c-4f3e-9161-a2a814dc67b3)
+  ![image-44](https://github.com/user-attachments/assets/0c52f910-3a78-410b-8fb2-c63207c5583a)
 
 ## 댓글 DELETE 구현
 
 - 댓글 삭제 url
-  ![alt text](image-45.png)
+  ![image-45](https://github.com/user-attachments/assets/3db5b683-db00-44f7-b05f-d306a74f5acd)
 - 댓글 삭제 view
-  ![alt text](image-46.png)
+  ![image-46](https://github.com/user-attachments/assets/f9752798-b6a8-4482-abad-a2587bfabd63)
 - 댓글 삭제 버튼
-  ![alt text](image-47.png)
+  ![image-47](https://github.com/user-attachments/assets/193c9608-d24f-471e-9e6b-d8cd30e35aa4)
 
 ### 데이터 무결성
 
@@ -115,13 +115,13 @@ DB에 저장 요청을 보내지 않고 인스턴스만 반환
 ### admin site등록
 
 Comment 모델을 admin site에 등록해 CRUD 확인
-![alt text](image-48.png)
+![image-48](https://github.com/user-attachments/assets/56668791-62df-4df3-bc1d-48c5addd3d4f)
 
 #### 대체 콘텐츠 출력
 
 - 댓글이 없는 경우
   DTL의 'for empty' 태그 활용 
-  ![alt text](image-49.png)
+  ![image-49](https://github.com/user-attachments/assets/83729898-6704-4d51-bcd1-6a074f01d747)
 
 - 댓글 갯수 출력
-  ![alt text](image-50.png)
+  ![image-50](https://github.com/user-attachments/assets/bf3da971-ff3f-4fcb-925f-49262889d48d)
