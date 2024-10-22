@@ -126,3 +126,4 @@
 - JavaScript
   
   - [DOM](https://github.com/rntakt0517/TIL/blob/master/JavaScript/DOM.md)
+  - [Basic Syntax](https://github.com/rntakt0517/TIL/blob/master/JavaScript/Basic%20Syntax.md)
