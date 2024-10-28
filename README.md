@@ -131,3 +131,4 @@
     - [함수](https://github.com/rntakt0517/TIL/blob/master/JavaScript/%ED%95%A8%EC%88%98.md)
     - [객체](https://github.com/rntakt0517/TIL/blob/master/JavaScript/%EA%B0%9D%EC%B2%B4.md)
     - [배열](https://github.com/rntakt0517/TIL/blob/master/JavaScript/%EB%B0%B0%EC%97%B4.md)
+  - [Controlling Event](https://github.com/rntakt0517/TIL/blob/master/JavaScript/Controlling%20Event.md)
