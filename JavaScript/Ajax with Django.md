@@ -199,7 +199,7 @@
         if person != request.user:
             if person.followers.filter(pk=request.user.pk).exists():
                 person.followers.remove(request.user)
-                if_followed = False
+                is_followed = False
             else:
                 person.followers.add(request.user)
                 is_followed = True
@@ -273,8 +273,8 @@
     
       .then((response) => {
         ...
-        const followingsCountTag = document.querySelctor('#followings-count')
-        const followersCountTag = document.querySelctor('#followers-count')
+        const followingsCountTag = document.querySelector('#followings-count')
+        const followersCountTag = document.querySelector('#followers-count')
       })
     ```
   
@@ -289,7 +289,7 @@
             context = {
                 'is_followed': is_followed,
                 'followings_count': person.followings.count(),
-                'follosers_count': person.followers.count(),
+                'followers_count': person.followers.count(),
             }
             return JsonResponse(context)
         return redirect('accounts:profile', person.username)
@@ -302,8 +302,8 @@
     
       .then((response) => {
         ...
-        const followingsCountTag = document.querySelctor('#followings-count')
-        const followersCountTag = document.querySelctor('#followers-count')
+        const followingsCountTag = document.querySelector('#followings-count')
+        const followersCountTag = document.querySelector('#followers-count')
     
         followingsCountTag.textContent = response.data.followings_count
         followersCountTag.textContent = response.data.followers_count
@@ -491,7 +491,7 @@
 
 - 버블링을 활용하지 않은 경우
   
-  1. querySelctorAll()을 사용해 전체 좋아요 버튼을 선택
+  1. querySelectorAll()을 사용해 전체 좋아요 버튼을 선택
      
      ```html
      <!-- articles/index.html -->
