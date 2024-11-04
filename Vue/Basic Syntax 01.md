@@ -346,7 +346,7 @@ v-on:event="handler"
        ```
        
        ```html
-       <button @click="warning('경고입니다.', $ㄷ)">Say bye</button>
+       <button @click="warning('경고입니다.', $event)">Say bye</button>
        ```
   
   2. Method handlers (이외의 상황)
