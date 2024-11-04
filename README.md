@@ -138,3 +138,4 @@
 - Vue
   
   - [introduction of vue](https://github.com/rntakt0517/TIL/blob/master/Vue/01-introduction-of-vue.md)
+  - [Basic Syntax 01](https://github.com/rntakt0517/TIL/blob/master/Vue/Basic%20Syntax%2001.md)
