@@ -140,3 +140,4 @@
   - [introduction of vue](https://github.com/rntakt0517/TIL/blob/master/Vue/01-introduction-of-vue.md)
   - [Basic Syntax](https://github.com/rntakt0517/TIL/blob/master/Vue/Basic%20Syntax.md)
   - [Single-File Components](https://github.com/rntakt0517/TIL/blob/master/Vue/Single-File%20Components.md)
+  - [Props](https://github.com/rntakt0517/TIL/blob/master/Vue/Props.md)
