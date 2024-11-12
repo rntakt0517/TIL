@@ -142,3 +142,4 @@
   - [Single-File Components](https://github.com/rntakt0517/TIL/blob/master/Vue/Single-File%20Components.md)
   - [Props](https://github.com/rntakt0517/TIL/blob/master/Vue/Props.md)
   - [Vue Router](https://github.com/rntakt0517/TIL/blob/master/Vue/Vue%20Router.md)
+  - [State Management](https://github.com/rntakt0517/TIL/blob/master/Vue/State%20Management.md)
